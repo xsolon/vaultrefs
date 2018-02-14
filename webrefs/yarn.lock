@@ -359,6 +359,13 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
+fullcalendar@^3.8.2:
+  version "3.8.2"
+  resolved "https://registry.yarnpkg.com/fullcalendar/-/fullcalendar-3.8.2.tgz#ef7dc77b89134bbe6163e51136f7a1f8bfc1d807"
+  dependencies:
+    jquery "2 - 3"
+    moment "^2.9.0"
+
 gaze@^0.5.1:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/gaze/-/gaze-0.5.2.tgz#40b709537d24d1d45767db5a908689dfe69ac44f"
@@ -697,9 +704,15 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
 
-jquery@^3.3.1:
+"jquery@2 - 3", jquery@>=1.9.1, jquery@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+
+jstree@^3.3.5:
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/jstree/-/jstree-3.3.5.tgz#9c578db32d0a643775cddd8020ad5992f4119c13"
+  dependencies:
+    jquery ">=1.9.1"
 
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.1.0, kind-of@^3.2.0:
   version "3.2.2"
@@ -898,6 +911,10 @@ mkdirp@^0.5.0:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+moment@^2.20.1, moment@^2.9.0:
+  version "2.20.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.20.1.tgz#d6eb1a46cbcc14a2b2f9434112c1ff8907f313fd"
 
 ms@2.0.0:
   version "2.0.0"
